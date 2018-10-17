@@ -315,18 +315,21 @@ static const map<job_type, job_def> job_data =
     WCHOICE_PLAIN,
     { {SK_FIGHTING, 2}, {SK_DODGING, 1}, {SK_INVOCATIONS, 5}, {SK_WEAPON, 3}, },
 } },
-#if TAG_MAJOR_VERSION == 34
-{ JOB_HEALER, {
-    "He", "Healer",
-    0, 0, 0,
-    { },
-    { },
-    WCHOICE_NONE,
-    { },
-} },
 
 { JOB_JESTER, {
     "Jr", "Jester",
+    1, 5, 6,
+    { SP_HUMAN, SP_GNOLL, SP_TENGU, SP_KOBOLD, SP_SPRIGGAN, SP_OCTOPODE, },
+    { "quarterstaff ego:chaos" "robe", "cap", "book of Party Tricks", 
+		"pie ego:blinding q:4", "deck of war"},
+    WCHOICE_NONE,
+    { {SK_DODGING, 2}, {SK_STAVES, 1}, {SK_STEALTH, 1}, {SK_THROWING, 1},
+		{SK_SPELLCASTING, 2}, {SK_EVOCATIONS, 2}, },
+} },
+
+#if TAG_MAJOR_VERSION == 34
+{ JOB_HEALER, {
+    "He", "Healer",
     0, 0, 0,
     { },
     { },
