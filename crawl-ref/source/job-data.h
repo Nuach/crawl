@@ -321,9 +321,9 @@ static const map<job_type, job_def> job_data =
     4, 4, 4,
     { SP_DEEP_DWARF, SP_HILL_ORC, SP_NAGA, SP_MINOTAUR, SP_BASE_DRACONIAN,
 	  SP_GARGOYLE, },
-    { "robe plus:1", "potion of curing", "potion of heal wounds" },
+    { "robe plus:1", "potion of curing", "potion of heal wounds", "harp of healing" },
     WCHOICE_NONE,
-    { {SK_FIGHTING, 1}, {SK_DODGING, 2}, {SK_INVOCATIONS, 3} },
+    { {SK_FIGHTING, 1}, {SK_DODGING, 2}, {SK_INVOCATIONS, 3}, {SK_EVOCATIONS, 1}, },
 } },
 #if TAG_MAJOR_VERSION == 34
 { JOB_JESTER, {
