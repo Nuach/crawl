@@ -294,6 +294,19 @@ Wanderer player ghost
 Priest player ghost
 
 @player ghost@
+%%%%
+<<<<<<< HEAD
+Archaeologist player ghost
+
+@player ghost@
+%%%%
+Healer player ghost
+
+@player ghost@
+%%%%
+Jester player ghost
+
+@player ghost@
 ########################################
 # Shouts by monster symbol
 ########################################

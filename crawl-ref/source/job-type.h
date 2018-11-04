@@ -21,8 +21,8 @@ enum job_type
     JOB_VENOM_MAGE,
     JOB_CHAOS_KNIGHT,
     JOB_TRANSMUTER,
-#if TAG_MAJOR_VERSION == 34
     JOB_HEALER,
+#if TAG_MAJOR_VERSION == 34
     JOB_STALKER,
 #endif
     JOB_MONK,
@@ -33,9 +33,8 @@ enum job_type
     JOB_DEATH_KNIGHT,
     JOB_ABYSSAL_KNIGHT,
 	JOB_ARCHAEOLOGIST,
-#if TAG_MAJOR_VERSION == 34
     JOB_JESTER,
-#endif
+    JOB_JELLIFIER,
     NUM_JOBS,                          // always after the last job
 
     JOB_UNKNOWN = 100,

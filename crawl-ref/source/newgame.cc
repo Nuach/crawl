@@ -1082,13 +1082,13 @@ static job_group jobs_order[] =
     {
         "Adventurer",
         coord_def(0, 7), 17,
-        { JOB_ARTIFICER, JOB_WANDERER, JOB_ARCHAEOLOGIST }
+        { JOB_ARTIFICER, JOB_WANDERER, JOB_ARCHAEOLOGIST, JOB_JESTER }
     },
     {
         "Zealot",
         coord_def(15, 0), 20,
         { JOB_BERSERKER, JOB_ABYSSAL_KNIGHT, JOB_CHAOS_KNIGHT,
-          JOB_DEATH_KNIGHT, JOB_PRIEST }
+          JOB_DEATH_KNIGHT, JOB_JELLIFIER, JOB_PRIEST, JOB_HEALER }
     },
     {
         "Warrior-mage",

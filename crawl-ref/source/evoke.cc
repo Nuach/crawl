@@ -1869,8 +1869,8 @@ void handle_playing_harp()
         return;
     }
 
-    // Heal for 10 + (1 * Evocations), can adjust later if too weak/strong
-    const int base_pow = 10 + you.skill(SK_EVOCATIONS, 1);
+    // Heal for 5 + (.75 * Evocations), can adjust later if too weak/strong
+    const int base_pow = div_rand_round((500 + you.skill(SK_EVOCATIONS, 75)), 100);
     inc_hp(base_pow);
 
     // Make a small bit of noise for flavor

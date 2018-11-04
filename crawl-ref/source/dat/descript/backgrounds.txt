@@ -73,6 +73,11 @@ Gladiator
 Gladiators are ready for the arena with light armour, nets, and a weapon of
 their choice.
 %%%%
+Healer
+
+Healers are followers of Elyvilon the Healer, a pacifist god that protects and 
+heals the followers who adhere to Elyvilon's tenants.
+%%%%
 Hunter
 
 Hunters carry a ranged weapon of their choice, and are also equipped with light
@@ -82,6 +87,15 @@ Ice Elementalist
 
 Ice Elementalists begin with the Freeze spell. The spells in their starting
 library are quite versatile.
+%%%%
+Jellifier
+
+Jellifiers are worshippers of Jiyva, the slime god of endless hunger.
+%%%%
+Jester
+
+Jesters worship Nemelex Xobeh, and are quick with a joke.
+Xom finds this hilarious.
 %%%%
 Monk
 

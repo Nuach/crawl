@@ -380,10 +380,26 @@ static void _give_items_skills(const newgame_def& ng)
             you.skills[SK_ARMOUR]++;
         break;
 
+    case JOB_JELLIFIER:
+        you.religion = GOD_JIYVA;
+        you.piety = 40;
+        break;
+
     case JOB_PRIEST:
         you.religion = GOD_ZIN;
         you.piety = 45;
         break;
+	
+	case JOB_HEALER:
+		you.religion = GOD_ELYVILON;
+		you.piety = 55;
+        break;
+
+	case JOB_JESTER:
+		you.religion = GOD_NEMELEX_XOBEH;
+		you.piety = 25;
+		you.penance[GOD_XOM] = 50;
+		break;
 
     case JOB_WANDERER:
         create_wanderer();
